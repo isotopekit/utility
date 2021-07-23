@@ -1,0 +1,28 @@
+{
+	"name": "isotopekit/utility",
+	"description": "Utility Package",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Vijayant Katyal",
+			"email": "hello@vijayantkatyal.com"
+		}
+	],
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"IsotopeKit\\Utility\\": "src/"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"IsotopeKit\\Utility\\ServiceProvider"
+			]
+		}
+	},
+	"config": {
+		"sort-packages": true
+	}
+}
