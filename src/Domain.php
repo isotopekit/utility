@@ -2,6 +2,12 @@
 
 namespace IsotopeKit\Utility;
 
+// change /etc/apache2/site-available folder owner to www-data
+// sudo chown -R www-data:www-data site-available/
+
+// add setting to sudo nano /etc/sudoers
+// www-data ALL=(ALL) NOPASSWD: ALL
+
 class Domain
 {
 
